@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVH Tiffins About Page</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@600&family=Dosis:wght@300&family=Lobster+Two&family=Noto+Serif+Display:wght@100&family=Playfair+Display:ital@1&family=Ramaraja&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <style>
+        #about {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #about::before {
+            position: absolute;
+            background-color: rgb(33, 29, 53);
+            height: 108%;
+            width: 100%;
+            top: -5rem;
+            content: '';
+            z-index: -1;
+        }
+
+        h6 {
+            border: 2px solid white;
+            border-radius: 1rem;
+            width: 30%;
+            margin: 5rem auto 5rem auto;
+            display: block;
+            font-size: 2rem;
+            color: rgb(255, 145, 0);
+            cursor: pointer;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        h6:hover {
+            text-shadow: 2px 2px 2px solid black;
+            opacity: 1;
+            color: rgb(255, 115, 0);
+        }
+
+        .box1 {
+            width: 100%;
+        }
+
+        .box2 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .box3 {
+            text-align: center;
+            width: 100%;
+        }
+
+        .box4 {
+          
+            text-align: center;
+        }
+        .fa-brands{
+            font-size: 3rem;
+            margin: 1rem;
+            color: white;
+        }
+
+        .fa-instagram:hover {
+            color: rgb(255, 0, 128);
+        }
+
+        .fa-whatsapp:hover {
+            color: rgb(21, 244, 21);
+        }
+
+        .fa-facebook:hover {
+            color: blue;
+        }
+
+        .fa-twitter:hover {
+            color: rgb(41, 178, 233);
+        }
+
+        .box1 p {
+            display: block;
+            width: 45%;
+            margin: 2rem auto;
+            color: white;
+
+        }
+
+        .box2 p {
+            margin-top: 2rem;
+            color: white;
+        }
+        .box2 p span{
+            font-weight: bold;
+            color:  orange;;
+        }
+
+        .box3 li {
+            margin-top: 1.2rem;
+            font-size: 1.7rem;
+            list-style: none;
+        }
+
+        .box3 li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .box4 li {
+            margin-top: 2rem;
+            font-size: 1.2rem;
+            list-style: none;
+        }
+
+        .box4 li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .box1 p span {
+            color: orange;
+        }
+
+        i {
+            color: rgb(255, 115, 0);
+        }
+
+        footer {
+            font-size: 1.2rem;
+            top: 0;
+            position: relative;
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px 6px;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="/index.html" class="logo"><span>AVH</span>Tiffins</a>
+        <ul>
+
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/menu.html">MENU</a></li>
+            <li><a href="/contact.html">CONTACT </a></li>
+            <li><a href="/about.html">ABOUT </a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div id="about">
+        <div class="box1">
+            <h6>Abou Us</h6>
+            <p>WE ARE HERE TO SERVE YOU THE BEST FOOD OF INDORE CITY.
+                <span>OUR SPECIALLITY </span> IS THAT YOU CAN SELECT YOUR OWN FOOD FOR YOUR NEXT DAY TIFFIN,BEFORE 24
+                HOUR
+            </p>
+        </div>
+        <div class="box2">
+            <h6>Branch Location</h6>
+            <p> <i class="fa-solid fa-location-dot"></i> REDISON SQUARE
+                NEAR CENTRAL PARK,<span> INDORE</span> .</p>
+        </div>
+        <div class="box3">
+            <h6>Quick Links</h6>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About us</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+            <li><a href="/contact.html">Contact us</a></li>
+        </div>
+        <div class="box4">
+            <h6>Follow Us</h6>
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <hr>
+            &copy; www.avh.com all rights are reserved to AVH
+        </div>
+    </footer>
+
+</body>
+
+</html>
