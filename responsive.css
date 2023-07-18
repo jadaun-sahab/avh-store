@@ -1,0 +1,241 @@
+@media (max-width: 800px) {
+  #navbar {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  #navbar ul {
+    margin: 0.7rem auto;
+  }
+  #navbar li a {
+    font-size: 1rem;
+    padding: 0 0;
+  }
+
+  .logo {
+    font-size: 2.5rem;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+  }
+  h4 {
+    font-size: 3.2rem;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+
+  #home h2 {
+    font-size: 1.5rem;
+  }
+
+  #home p {
+    font-size: 1rem;
+  }
+
+  .foot {
+    top: 100px;
+  }
+  #contact #contact-box form {
+    width: 55%;
+  }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+  #services .h3 {
+    font-size: 3.2rem;
+  }
+  .box .heading {
+    font-size: 2.2rem;
+  }
+  #about h6 {
+    width: 45%;
+    margin: 4rem auto 4rem auto;
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  #about::before {
+    top: -4rem;
+  }
+  .textarea {
+    width: 75%;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  #about h6 {
+    width: 45%;
+    margin: 3rem auto 3rem auto;
+    font-size: 1.3rem;
+    padding: 0.7rem;
+  }
+  #navbar ul li a {
+    font-size: 1.3rem;
+    padding: 0 0.7rem;
+  }
+  #home h1 {
+    font-size: 1.6rem;
+  }
+
+  #home h2 {
+    font-size: 1.3rem;
+  }
+
+  #home p {
+    font-size: 0.9rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  .btn3 {
+    width: 9rem;
+    padding: 5px 9px;
+    font-size: 1.4rem;
+    margin: 0.7rem auto 1px auto;
+  }
+  #services .h3 {
+    font-size: 2.8rem;
+  }
+  .box .heading {
+    width: 19.6rem;
+    font-size: 2rem;
+  }
+
+  .textarea {
+    width: 65%;
+  }
+  #contact #contact-box form {
+    width: 60%;
+  }
+  #about::before {
+    top: -3rem;
+}
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  #about h6 {
+    width: 50%;
+    margin: 3rem auto 3rem auto;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  #navbar ul li a {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+  .logo {
+    font-size: 2.3rem;
+    display: block;
+    width: 45%;
+    margin: 0 auto;
+  }
+  #home h1 {
+    font-size: 1rem;
+  }
+
+  #home h2 {
+    font-size: 0.82rem;
+  }
+
+  #home p {
+    font-size: 0.6rem;
+  }
+  h4 {
+    font-size: 2.2rem;
+  }
+
+  #contact-box label {
+    font-size: 1.1rem;
+  }
+  #services .h3 {
+    font-size: 2.4rem;
+  }
+  .box .heading {
+    width: 14rem;
+    font-size: 1.6rem;
+  }
+
+  ol {
+    font-size: 1.4rem;
+  }
+  .textarea {
+    width: 70%;
+  }
+  #contact #contact-box form {
+    width: 72%;
+    padding: 1.5rem;
+  }
+  #about::before {
+    top: -3rem;
+}
+}
+@media (min-width: 100px) and (max-width: 300px) {
+  #navbar ul li a {
+    font-size: 0.7rem;
+    padding: 0 0.2rem;
+  }
+  #contact-box input,
+  #contact-box textarea {
+    width: 109%;
+    padding: 0.5rem;
+    border-radius: 20px;
+  }
+  #contact #contact-box form {
+    width: 75%;
+    padding: 1rem;
+  }
+  .logo {
+    font-size: 1.9rem;
+    display: block;
+    width: 65%;
+    margin: 0 auto;
+  }
+  #home h1 {
+    font-size: 1rem;
+  }
+
+  #home h2 {
+    font-size: 0.82rem;
+  }
+
+  #home p {
+    font-size: 0.6rem;
+  }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn3 {
+    width: 6rem;
+    padding: 4px 7px;
+    font-size: 1rem;
+    margin: 0.5rem auto 1px auto;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+  #services .h3 {
+    width: 50%;
+    font-size: 2.2rem;
+  }
+  .box .heading {
+    width: 12rem;
+    font-size: 1.3rem;
+  }
+  .box .heading ol {
+    font-size: 1rem;
+  }
+
+  .textarea {
+    width: 60%;
+    height: 5rem;
+  }
+  #about h6 {
+    width: 60%;
+    margin: 3rem auto 3rem auto;
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  #about::before {
+    top: -3rem;
+}
+}

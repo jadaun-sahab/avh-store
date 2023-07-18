@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVH Tiffins Menu Page</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="/responsive.css">
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@600&family=Dosis:wght@300&family=Lobster+Two&family=Noto+Serif+Display:wght@100&family=Playfair+Display:ital@1&family=Ramaraja&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #services {
+            position: relative;
+            height: 100%;
+            width: 100%;
+
+
+        }
+
+        #services::before {
+            position: absolute;
+            content: "";
+            opacity: 1;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            background: url("images/bg2.jpg")no-repeat center center/cover;
+
+        }
+
+        #services .h3 {
+            font-size: 3.5rem;
+            position: relative;
+            color: rgb(255, 136, 0);
+            text-align: center;
+            text-shadow: 5px 7px 2px black;
+            display: block;
+            width: 30%;
+            margin: 1px auto 4rem auto;
+        }
+
+        .box {
+            position: relative;
+            color: white;
+            display: block;
+            width: 100%;
+            margin: 1rem auto;
+        }
+
+        .box .heading {
+            font-size: 2.5rem;
+            transition: all .3s;
+            text-align: center;
+            border: 2px solid blue;
+            background-color: rgba(0, 136, 255, 0.708);
+            display: block;
+            text-shadow: 2px 2px 6px blue;
+            width: 25rem;
+            color: rgb(255, 253, 253);
+            margin: 1rem auto;
+        }
+
+        ol {
+            display: block;
+            align-items: center;
+            width: 90%;
+            font-size: 1.8rem;
+            margin: 1rem auto;
+            color: aliceblue;
+        }
+
+        .textarea {
+            overflow: hidden;
+            text-align: center;
+            justify-content: center;
+            margin: 2rem auto 0 auto;
+            padding-bottom: 1rem;
+
+        }
+
+        .textarea p {
+            text-shadow: 2px 2px 2px black;
+            font-size: large;
+            color: rgb(255, 255, 255);
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="/index.html" class="logo"><span>AVH</span>Tiffins</a>
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/menu.html">MENU</a></li>
+            <li><a href="/contact.html">CONTACT </a></li>
+            <li><a href="/about.html">ABOUT </a></li>
+        </ul>
+    </nav>
+    <div id="services">
+        <div class="h3">
+            <h3>MENU</h3>
+        </div>
+        <div class="box">
+            <div class="heading">NORMAL Menu</div>
+            <ol>ROTI </ol>
+            <ol>DAAL & RICE</ol>
+            <ol>ALOO TAMATAR</ol>
+            <ol>ALOO MATAR</ol>
+            <ol>SEV BHAJI</ol>
+            <ol>PPICKEL</ol>
+
+
+            <div class="heading">PREMIUM Menu </div>
+            <ol>ROTI</ol>
+            <ol>Daal & RICE</ol>
+            <ol>ALOO TAMATAR </ol>
+            <ol>ALOO GOBHI(DRY) </ol>
+            <ol>SEV BHAJI </ol>
+            <ol>MATAR PANEER </ol>
+            <ol>PPICKEL & SALAD </ol>
+
+
+            <div class="heading">COUSTOMSATION </div>
+            <ol>ROTI 5rs</ol>
+            <ol>Daal & RICE 20rs</ol>
+            <ol>ALOO TAMATAR 15rs</ol>
+            <ol>ALOO MATAR 15rs</ol>
+            <ol>ALOO GOBHI(DRY) 15rs</ol>
+            <ol>SEV BHAJI 15rs</ol>
+            <ol> MATAR PANEER 25rs</ol>
+            <ol>ALOO PARNTHA 20rs</ol>
+            <ol> GULAB JAMUN 8RS </ol>
+            <ol>PPICKEL & SALAD 10RS</ol>
+
+        </div>
+        <hr>
+        <div class="textarea">
+            <p>Write Your Order Here.</p>
+            <textarea name="" id="" cols="90" rows="10"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>

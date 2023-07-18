@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVH-Tiffins Contact Page</title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/b06a377e67.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Bebas+Neue&family=Courgette&family=Dancing+Script:wght@600&family=Dosis:wght@300&family=Lobster+Two&family=Noto+Serif+Display:wght@100&family=Playfair+Display:ital@1&family=Ramaraja&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <style>
+        #contact {
+            position: relative;
+            display: block;
+            height: 800px;
+        }
+
+        #contact::before {
+            content: "";
+            position: absolute;
+            background: url('images/bg2.jpg')no-repeat center center/cover;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.9;
+        }
+
+        h4 {
+            font-family: 'Baloo 2', cursive;
+            font-size: 3.5rem;
+            position: relative;
+            top: 45px;
+            color: rgb(255, 132, 0);
+            text-shadow: 2px 2px 2px rgb(0, 0, 0);
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        #contact-box {
+            position: relative;
+            top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 34px;
+        }
+
+        #contact-box form {
+            box-shadow: 4px 4px 4px rgb(0, 0, 0);
+            background-color: rgb(108, 2, 173);
+            border-radius: 1rem;
+            width: 40%;
+            padding: 2rem;
+        }
+
+        #contact-box label {
+            color: rgb(207, 139, 3);
+            font-weight: bold;
+            font-size: 1.4rem;
+        }
+
+        #contact-box input,
+        #contact-box textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 20px;
+        }
+
+        .btn3 {
+            width: 9rem;
+            display: block;
+            background-color: rgb(255, 128, 0);
+            padding: 5px 9px;
+            font-size: 1.5rem;
+            font-weight: bolder;
+            color: rgb(0, 0, 0);
+            border-radius: 19px;
+            border: 2px solid rgb(0, 0, 0);
+            margin: 1rem auto 1px auto;
+            transition-property: all;
+            transition-duration: 0.7s;
+        }
+
+        .btn3:hover {
+            color: white;
+            text-shadow: 2px 2px 2px rgb(10, 10, 10);
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <a href="/index.html" class="logo"><span>AVH</span>Tiffins</a>
+        <ul>
+            <li><a href="/index.html" >HOME</a></li>
+            <li><a href="/menu.html" >MENU</a></li>
+            <li><a href="/contact.html" >CONTACT </a></li>
+            <li><a href="/about.html" >ABOUT </a></li>
+        </ul>
+    </nav>
+    <section id="contact">
+        <h4 class="h-primary center">CONTACT US</h4>
+        <div id="contact-box">
+            <form action="tq.html">
+                <div class="form-group">
+                    <label for="name">NAME:</label>
+                    <input type="text" name="name" id="name" placeholder="ENTER YOUR NAME">
+                </div>
+                <div class="form-group">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="email" id="email" placeholder="ENTER YOUR EMAIL">
+                </div>
+                <div class="form-group">
+                    <label for="number">NUMBER:</label>
+                    <input type="phone" name="number" id="number" placeholder="ENTER YOUR NUMBER">
+                </div>
+                <div class="form-group">
+                    <label for="MESSAGE">MESSAGE:</label>
+                    <textarea name="MESSAGE" id="MESSAGE" cols="30" rows="5"></textarea>
+                </div>
+                <div class="form-group"></div>
+                <button class="btn3">Submit</button>
+
+            </form>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
